@@ -7,6 +7,12 @@ header span {
   padding: 10px 20px;
   border-radius: 4px;
 }
+@media (max-width: 400px) {
+  header span {
+    font-size: 40px;
+  }
+}
+
 .header {
   max-width: 1200px;
   padding: 40px 20px;
