@@ -55,6 +55,9 @@ img {
 }
 .header .nome {
   position: relative;
+  background: linear-gradient(to right, #67dd0a, #b6f829, #67dd0a, #b6f829);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 @media (max-width: 400px) {
   .header span::before {
