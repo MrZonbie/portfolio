@@ -51,6 +51,7 @@ img {
   height: 42px;
   right: 110px;
   top: 0px;
+  border-radius: 4px 0px 0 4px;
 }
 .header .nome {
   position: relative;
