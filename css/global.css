@@ -43,3 +43,26 @@ img {
   background: #141414;
   border-radius: 4px;
 }
+.header span::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(#b6f829, #67dd0a);
+  width: 10px;
+  height: 42px;
+  right: 110px;
+  top: 0px;
+}
+.header .nome {
+  position: relative;
+}
+@media (max-width: 400px) {
+  .header span::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(#b6f829, #67dd0a);
+    width: 10px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+  }
+}
